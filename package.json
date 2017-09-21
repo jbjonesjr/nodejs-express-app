@@ -4,8 +4,10 @@
   "description": "Basic ExpressJS app showcasing web support",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
   },
+  "main":"index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jbjonesjr/nodejs-express-app.git"
