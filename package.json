@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-express-app",
+  "version": "1.0.0",
+  "description": "Basic ExpressJS app showcasing web support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbjonesjr/nodejs-express-app.git"
+  },
+  "author": "@jbjonesjr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbjonesjr/nodejs-express-app/issues"
+  },
+  "homepage": "https://github.com/jbjonesjr/nodejs-express-app#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
