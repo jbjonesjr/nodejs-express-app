@@ -4,8 +4,8 @@ const app = express()
 var server_port = process.env.OPENSHIFT_NODEJS_PORT || process.env.EXPRESS_SERVER_PORT || 3000;
 
 app.get('/', function (req, res) {
-  res.send('Welcome to this basic app!');
-  res.send('You can now find this available on <a href="http://express-main.apps.ocp.test-demo-dlt.com/">OpenShift</a>');
+  res.send('Welcome to this basic app! \
+  You can now find this available on <a href="http://express-main.apps.ocp.test-demo-dlt.com/">OpenShift</a>');
 })
 
 app.listen(server_port, function () {
