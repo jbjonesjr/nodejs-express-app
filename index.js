@@ -5,6 +5,7 @@ var server_port = process.env.OPENSHIFT_NODEJS_PORT || process.env.EXPRESS_SERVE
 
 var html_frame = "<html>\
   <head>\
+    <title>Basic express app</title>\
   </head>\
   <body>\
   </body>\
