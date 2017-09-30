@@ -1,0 +1,15 @@
+{
+    "apiVersion": "v1",
+    "kind": "ImageStream",
+    "metadata": {      
+        "labels": {
+            "app": "#{app-name}"
+        },
+        "name": "#{app-name}-#{branch-name}",
+        "namespace": "#{project}"
+    },
+    "spec": {},
+    "status": {
+        "dockerImageRepository": "#{registrary-address}/#{project}/#{app-name}-#{branch-name}",
+    }
+}
