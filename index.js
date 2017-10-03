@@ -11,7 +11,7 @@ var html_frame = "<html>\
   </body>\
 </html>";
 app.get('/', function (req, res) {
-  res.send('Welcome to this basic app! \
+  res.send('Welcome to this basic app! Testing. \
   You can now find this available on <a href="http://express-main.apps.ocp.test-demo-dlt.com/">OpenShift</a>');
 })
 
