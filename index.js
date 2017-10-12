@@ -16,5 +16,5 @@ app.get('/', function (req, res) {
 })
 
 app.listen(server_port, function () {
-  console.log('Express app initiated and listening on port '+server_port+'!')
+  console.log('Express app initiated and listening on port '+server_port+'! Here is an additional statement')
 })
